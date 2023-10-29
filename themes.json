@@ -1,0 +1,164 @@
+{
+  "Laser Wave": {
+    "img": "/dark/laserwave/preview.png",
+    "style": "dark",
+    "path": "/dark/laserwave/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Material Ocean": {
+    "img": "/dark/material/preview.png",
+    "style": "dark",
+    "path": "/dark/material/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Dracula": {
+    "img": "/dark/dracula/preview.png",
+    "style": "dark",
+    "path": "/dark/dracula/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "deepDark": {
+    "img": "/dark/deepDark/preview.png",
+    "style": "dark",
+    "path": "/dark/deepDark/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Github Dark": {
+    "img": "/dark/githubDark/preview.png",
+    "style": "dark",
+    "path": "/dark/githubDark/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Dark Green [Beta]":{
+    "img": "/dark/githubDark/preview.png",
+    "style": "dark",
+    "path": "/dark/darkGreen/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Kawaii": {
+    "img": "/light/kawaii/preview.png",
+    "style": "light",
+    "path": "/light/kawaii/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Yotsuba": {
+    "img": "/light/yotsuba/preview.png",
+    "style": "light",
+    "path": "/light/yotsuba/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Base 16 Eighties": {
+    "img": "/light/base16Eighties/preview.png",
+    "style": "light",
+    "path": "/light/base16Eighties/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Library": {
+    "img": "/light/library/preview.png",
+    "style": "light",
+    "path": "/light/library/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Github Light": {
+    "img": "/light/githubLight/preview.png",
+    "style": "light",
+    "path": "/light/githubLight/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Nord": {
+    "img": "/dark/nord/preview.png",
+    "style": "dark",
+    "path": "/dark/nord/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Tokyo Night": {
+    "img": "/dark/tokyoNight/preview.png",
+    "style": "dark",
+    "path": "/dark/tokyoNight/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Dark Academia": {
+    "img": "/dark/darkAcademia/preview.png",
+    "style": "dark",
+    "path": "/dark/darkAcademia/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Yin-Yang": {
+    "img": "/light/yinYang/preview.png",
+    "style": "light",
+    "path": "/light/yinYang/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Forest": {
+    "img": "/light/forest/preview.png",
+    "style": "light",
+    "path": "/light/forest/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Notion Old Dark Theme": {
+    "img": "/dark/notionOld/preview.png",
+    "style": "dark",
+    "path": "/dark/notionOld/theme.css",
+    "maker": {
+      "name": "Yudax",
+      "socialLink": "https://twitter.com/_yudax"
+    }
+  },
+  "Moonlight":{
+    "img": "/dark/moonlight/preview.png",
+    "style": "dark",
+    "path": "/dark/moonlight/theme.css",
+    "maker": {
+      "name": "Abod1960",
+      "socialLink": "https://twitter.com/abod1960_"
+    }
+  }
+}

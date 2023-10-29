@@ -1,0 +1,34 @@
+:root {
+  --bg: #000000;
+  --bg-light: #181818;
+  --bg-lighter: #161618;
+  --fg: #ffffffe6;
+  --fg-light: #ffffff99;
+  --fg-lighter: var(--fg-light);
+  --main: #2eaadc;
+  --hover: #2eaadc1c;
+  --border: #201f22;
+  --selection: #2eaadc40;
+  --gray: #979a9bf2;
+  --brown: #937264;
+  --orange: #ffa344;
+  --yellow: #ffdc49;
+  --green: #32a968;
+  --blue: #529cca;
+  --purple: #9a6dd7;
+  --pink: #e255a1;
+  --red: #da2f23;
+  --bg-gray: #7e80814d;
+  --bg-brown: #51331fad;
+  --bg-orange: #ff990050;
+  --bg-yellow: #b79c0071;
+  --bg-green: #32812f63;
+  --bg-blue: #005a9285;
+  --bg-purple: #5a319459;
+  --bg-pink: #f33d9e4d;
+  --bg-red: #7a14149f;
+}
+
+.notion-peek-renderer {
+  background: rgb(72 72 72 / 40%) !important;
+}

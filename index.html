@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Notion Themes is an open-source web extension to apply custom themes to Notion, Install Notion Themes and change the overall look and feel of Notion. Select from 10+ different dark/light color schemes."
+    />
+    <!-- og -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@notionthemes" />
+    <meta name="twitter:creator" content="@_yudax" />
+    <meta property="og:title" content="Notion Themes" />
+    <meta property="og:site_name" content="NotionThemes" />
+    <meta property="og:url" content="https://notionthems.yudax.me" />
+    <meta
+      property="og:description"
+      content="Notion Themes is an open-source web extension to apply custom themes to Notion, Install Notion Themes and change the overall look and feel of Notion. Select from 10+ different dark/light color schemes"
+    />
+    <meta property="og:type" content="product" />
+    <meta
+      property="og:image"
+      content="http://notionthemes.yudax.me/assets/og.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://notionthemes.yudax.me/assets/og.png"
+    />
+
+    <title>Notion Themes</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,400&display=swap");
+      body {
+        font-family: "Poppins", sans-serif;
+        background: radial-gradient(#ee7583, #faba7700);
+      }
+      #background {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -999;
+      }
+      .overlay {
+        background-color: #121010d6;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -800;
+      }
+
+      .container {
+        width: 100%;
+        margin: auto;
+        padding: 15% 10px;
+      }
+      main {
+        text-align: center;
+        min-height: 100vh;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      main h1 {
+        font-size: 58px;
+        background: -webkit-linear-gradient(#e56384, #ffd59e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 0;
+        margin: 8px;
+        margin-bottom: -23px;
+      }
+      main p {
+        font-size: 20pt;
+        color: #fff;
+      }
+      .mainBtn {
+        font-size: 16pt;
+        background: linear-gradient(45deg, #eb6786, #fbc176);
+        padding: 12px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+      }
+      .mainBtn .label {
+        font-size: 13pt;
+        font-weight: normal;
+      }
+      .notif {
+        width: 100%;
+        text-align: center;
+        min-height: 49px;
+        background-color: #da552f;
+        color: #eee;
+        position: fixed;
+        top: 0;
+        padding-top: 19px;
+        font-size: 17pt;
+      }
+      .notif a {
+        color: white;
+      }
+      .copyright {
+        margin-top: 5%;
+        color: #eee;
+      }
+      .copyright a {
+        text-decoration: none;
+        color: #8b8bff;
+      }
+      .testimonials {
+        margin-top: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="notif">
+      Hi, do you like NotionThemes ? Don't forget to show your love on
+      <a href="https://www.producthunt.com/posts/notion-themes">
+        Product Hunt 🚀</a
+      >
+    </div>
+    <main>
+      <div class="container">
+        <img src="./assets/logo.png" width="80" height="80" />
+        <h1>Notion Themes</h1>
+        <p>Make your Notion pretty with Custom themes</p>
+        <a class="mainBtn">
+          Add To<span class="browserName"></span>
+          <span class="label">It's free</span>
+        </a>
+        <div class="testimonials">
+          <script
+            type="text/javascript"
+            src="https://testimonial.to/js/iframeResizer.min.js"
+          ></script>
+          <iframe
+            id="ph-e1870d4a-0d95-42f1-b6bf-0e886f2178c0"
+            src="https://embed.testimonial.to/simple/producthunt/e1870d4a-0d95-42f1-b6bf-0e886f2178c0?theme=light&show_badge=yes"
+            frameborder="0"
+            scrolling="no"
+            width="100%"
+          ></iframe>
+          <script type="text/javascript">
+            iFrameResize(
+              { log: false, checkOrigin: false },
+              "#ph-e1870d4a-0d95-42f1-b6bf-0e886f2178c0"
+            );
+          </script>
+        </div>
+        <div class="copyright">
+          Made with ❤️ by
+          <a href="https://yudax.me?ref=Notionthemes">Yudax</a> &bull;
+          <a href="https://github.com/notionblog/NotionThemes"> Source Code</a>
+        </div>
+        <!--    <video autoplay muted id="background">
+          <source src="./assets/notionthemes.mp4" type="video/mp4" />
+    </video> -->
+      </div>
+    </main>
+    <script>
+      function getBrowserName() {
+        if (
+          navigator.userAgent.indexOf("Edge") > -1 &&
+          navigator.appVersion.indexOf("Edge") > -1
+        ) {
+          return "Edge";
+        } else if (
+          navigator.userAgent.indexOf("Opera") != -1 ||
+          navigator.userAgent.indexOf("OPR") != -1
+        ) {
+          return "Opera";
+        } else if (navigator.userAgent.indexOf("Chrome") != -1) {
+          return "Chrome";
+        } else if (navigator.userAgent.indexOf("Safari") != -1) {
+          return "Safari";
+        } else if (navigator.userAgent.indexOf("Firefox") != -1) {
+          return "Firefox";
+        } else if (
+          navigator.userAgent.indexOf("MSIE") != -1 ||
+          !!document.documentMode == true
+        ) {
+          //IF IE > 10
+          return "IE";
+        } else {
+          return "unknown";
+        }
+      }
+      const browserName = getBrowserName();
+      console.log(browserName);
+      const extLink = document.querySelector(".mainBtn");
+      if (browserName === "Firefox") {
+        extLink.href =
+          "https://github.com/notionblog/NotionThemes";
+      } else {
+        extLink.href =
+          "https://github.com/notionblog/NotionThemes";
+      }
+      const browserSpan = document.querySelector(".browserName");
+
+      browserSpan.innerHTML = ` ${browserName}`;
+
+      // fetch("themes.json")
+      //   .then((response) => response.json())
+      //   .then((json) => {
+      //     const themes = Object.entries(json).map((theme) => {
+      //       return {
+      //         name: theme[0],
+      //         ...theme[1],
+      //       };
+      //     });
+      //     themes.forEach((theme) => {
+      //       const list = document.querySelector("#themes");
+      //       list.innerHTML += `<li>
+      //           <a href="${theme.path}" target="_blank">${
+      //         theme.name
+      //       }</a> - style: <i>${theme.style == "dark" ? "🌙" : "💡"} ${
+      //         theme.style
+      //       }</i> - maker: <i><a href="https://twitter.com/_yudax">${
+      //         theme.maker.name
+      //       }</a></i>
+      //           </li>`;
+      //     });
+      //   });
+    </script>
+    <!-- 100% privacy friendly analytics -->
+    <script
+      async
+      defer
+      src="https://scripts.simpleanalyticscdn.com/latest.js"
+    ></script>
+    <noscript
+      ><img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+    /></noscript>
+  </body>
+</html>
